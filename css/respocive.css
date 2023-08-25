@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+
+
+
+@media screen and (max-width:1200px) {
+  .title {
+  font-size:8vw; font-weight:bold;
+  }
+}
+
+@media screen and (max-width:687px) {
+  .title {
+    font-size:50px; font-weight:bold;
+  }
+  .title_particle {
+    display:block;
+  }
+  .title_particle.bottom {
+    text-align:right;
+  }
+  .video_wrapper {
+    width:100%;
+  }
+  .video {
+    transform: scale(1.5);
+  }
+  .hide_on_mobile {
+    display:none;
+  }
+}
